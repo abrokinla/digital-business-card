@@ -1,0 +1,36 @@
+#footer {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    height:80px;
+    background:rgb(52, 51, 51);
+}
+
+#footer span {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+}
+
+#footer span a {
+    text-decoration:none;
+    color:#000;
+    cursor: pointer;
+}
+
+#footer span a:hover,
+#footer span a:focus{
+    color:#000;
+    font-size: 40px;
+    text-shadow:#000;
+}
+
+#footer span i {
+    margin-left:10px;
+}
+
+#footer button {
+  margin-right:10px;
+}

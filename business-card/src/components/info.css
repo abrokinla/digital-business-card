@@ -1,0 +1,82 @@
+#wrapper {
+    margin:0;
+    border-radius:20px 20px 0 0;    
+}
+
+header {
+    background:#fff;
+}
+
+header img {
+    height:360px;
+    width:100%;
+    display:block;
+    border-radius:20px 20px 0 0;
+}
+
+#contact {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+}
+
+#contact h3 {
+    font-size:25px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+#contact p {
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+#contact-btns {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+#email{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    cursor: pointer;
+    margin-right:10px;    
+}
+#email i{
+    font-size:18px;
+    position: absolute;
+    margin-left:25px;
+}
+#email input{
+    font-size:20px;
+    width:150px;
+    padding:10px 10px 10px 35px;
+    border-radius:10px;
+}
+
+#linkedin{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    cursor: pointer;
+}
+#linkedin i{
+    font-size:20px;
+    position: absolute;
+    margin-left:25px;
+    color:#fff;
+}
+#linkedin input{
+    font-size:20px;
+    padding:10px 10px 10px 35px;
+    width:150px;
+    border-radius:10px;
+    background:#0072b1;
+    color:#fff;
+}
