@@ -1,11 +1,13 @@
 # digital-business-card
+
 My digital business card created using react as part of of the Scrimba's react course
 
 ## Technologies
 
 This project was built with react and styled with css
 
-##View
+## View
+
 The project was built for mobile view
 
 ## Features to be added
